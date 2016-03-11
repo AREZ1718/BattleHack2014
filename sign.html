@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+  
+    <form data-abide action="/" method="POST">
+          <div class="row">
+            <div class="large-12 columns">
+              <label>E-mail:</label>
+              <input type="text" name="name" required pattern="email"/>
+              <p/>
+            </div>
+          </div>
+           <div class="row">
+            <div class="large-12 columns">
+              <label>Password</label>
+              <input type="password" name="pwd" required pattern="alpha_numeric"/>
+              <p/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns large-centered">
+              <p/>
+              <input type="submit" class="small round button"/>
+            </div>
+          </div>
+        </form>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
